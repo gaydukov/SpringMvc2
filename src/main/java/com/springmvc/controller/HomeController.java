@@ -12,7 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
     @RequestMapping (value = "/", method = RequestMethod.GET)
     public ModelAndView Home(){
-        return new ModelAndView("login","User",new User());
+        return new ModelAndView("home","User",new User());
             }
 
      @RequestMapping(value = "HelloUser",method = RequestMethod.POST)

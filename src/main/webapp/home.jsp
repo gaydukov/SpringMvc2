@@ -13,7 +13,7 @@
 <body>
 <h1>Sign Up</h1>
 
-<form:form method="post" commandName="User" >
+<form:form method="post" commandName="User" action="/HelloUser" >
     <table>
         <tr>
             <td>Username:</td>
